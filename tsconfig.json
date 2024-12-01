@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Define a versão JavaScript de saída.
+    "module": "commonjs", // Usa o sistema de módulos CommonJS (útil para execução em Node.js).
+    "rootDir": "./src", // Define a pasta raiz do projeto.
+    "outDir": "./dist", // Pasta onde o código JavaScript compilado será salvo.
+    "strict": true, // Ativa todas as verificações rigorosas de tipo.
+    "esModuleInterop": true, // Habilita compatibilidade com módulos ES6.
+    "forceConsistentCasingInFileNames": true, // Garante consistência no uso de maiúsculas e minúsculas nos nomes de arquivos.
+    "skipLibCheck": true, // Pula verificação de arquivos de declaração (.d.ts) para acelerar a compilação.
+    "resolveJsonModule": true, // Permite a importação de arquivos JSON.
+    "moduleResolution": "node", // Usa o padrão de resolução de módulos do Node.js.
+    "declaration": true, // Gera arquivos de definição (.d.ts) para os módulos.
+    "declarationMap": true, // Gera mapas de declarações para facilitar a depuração.
+    "sourceMap": true // Gera mapas de origem (.map) para depuração.
+  },
+  "include": ["src/**/*"], // Inclui todos os arquivos TypeScript na pasta src.
+  "exclude": ["node_modules", "dist"] // Exclui as pastas node_modules e dist.
+}
