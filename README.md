@@ -2,8 +2,6 @@
 
 A command-line application built with **TypeScript** that simulates a banking and investment environment. It allows users to manage accounts, buy and sell stocks, trade cryptocurrencies, and maintain savings, providing a dynamic and interactive experience.
 
-<img src="cover.png" alt="Cover">
-
 ## Table of Contents
 
 - [Features](#features)
